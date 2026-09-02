@@ -14,6 +14,12 @@ impl Vector3 {
     pub const ZERO: Self = Self::new(0.0, 0.0, 0.0);
     pub const ONE: Self = Self::new(1.0, 1.0, 1.0);
 
+    pub const UP: Self = Self::new(0.0, 1.0, 0.0);
+    pub const DOWN: Self = Self::new(0.0, -1.0, 0.0);
+    pub const RIGHT: Self = Self::new(1.0, 0.0, 0.0);
+    pub const LEFT: Self = Self::new(-1.0, 0.0, 0.0);
+    pub const FORWARD: Self = Self::new(0.0, 0.0, -1.0);
+    pub const BACKWARD: Self = Self::new(0.0, 0.0, 1.0);
 
 }
 
